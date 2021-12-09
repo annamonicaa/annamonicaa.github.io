@@ -1,0 +1,317 @@
+/* untuk logo natrep di navbar */
+.navbar-brand img {
+    width: 12rem;
+    height: auto;
+}
+
+.logo-natrep {
+    margin-right: 8em;
+}
+
+.nav-link {
+    font-family: gilroy, sans-serif;
+    color: #212529;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+/*untuk space antara logo dan nav item*/
+.right {
+    margin-right: 7rem;
+}
+
+.nav-item {
+    padding: 0.5em;
+}
+
+.navbar-nav li {
+    padding: 0.9em;
+}
+
+.nav-item i {
+    margin-left: 3.2em;
+    padding: 1em;
+    color:#212529;
+}
+
+
+.nav-item a:hover:not(.active) {
+    font-family: photoshoot;
+    font-weight: normal;
+    color: #212529;
+}
+
+.active,.nav-item a:hover {
+    font-family: photoshoot;
+    text-transform: none;
+    font-weight: normal;
+    color: #212529;
+}
+
+/*carousel*/
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 1rem; 
+    height: 1rem;
+    margin: 10px;
+    padding: 2px;
+    cursor: pointer;
+    background-color:#46494d;
+    border: 0;
+    opacity: .8;
+    border-radius: 100%; 
+}
+  
+
+h1 {
+    font-family: gilroy;
+    font-weight: bolder;
+    color: #212529;
+}
+
+h4 {
+    font-family: gilroy;
+    font-weight: bold;
+    color: #212529;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*gambar-1*/
+.col-sm-5 img {
+    max-width: 350px;
+    max-height: 350px;
+}
+
+/*button warna hijau*/
+.btn-green {
+    background-color: #d5e7b8;
+    border-radius: 8px;
+    border-color: #eff7e3;
+}
+
+.btn-green:hover {
+    background-color:  #c0e97e;
+}
+
+.d-block {
+    width: 100%;
+}
+
+.margin {
+    margin-top: 10rem;
+}
+
+/*product*/
+.product .card .jenis-product{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 0.8em;
+    color: #999999;
+    
+}
+
+.product {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 6rem;
+}
+
+.product .card {
+    border: none;
+}
+
+.product .card img {
+    height: auto;
+    width: auto;
+}
+
+.product .card img:hover {
+    opacity: 50%;
+}
+
+.product .card .jenis-product:hover {
+    color: #000;
+    
+}
+
+.product .card .nama-product {
+    color: #1b1b1b;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.product .card .nama-product:hover {
+    color: rgba(50, 255, 0, 0.4);
+}
+
+.product .card .harga {
+    font-weight: 700;
+    font-size: 1.5em;
+    color: rgba(255, 0, 0, 0.4);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+
+/*Tips from Us*/
+.tips {
+    margin-top: 1em;
+    border: none;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 5rem; */
+}
+
+.tips .card {
+    border: none;
+}
+
+/*untuk biodata*/
+.biodata {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    
+}
+
+.textBiodata {
+    font-family: gilroy, sans-serif;
+    font-size: 1em;
+}
+
+.bg-green {
+    background-color: #d5e7b8;
+}
+
+.card-img-top {
+    padding: 0.6rem;
+}
+
+.social-biodata div{
+    margin-top: 5px;
+    font-size: 0.8em;
+    color: #777;
+}
+
+.social-biodata a:hover {
+    color: #1b1b1b;
+}
+
+/*contant us*/
+.contact {
+    padding: 5em;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    background-color: #d5e7b898;
+}
+
+.form-check-input {
+    margin-left: 1em;
+}
+
+/*gallery*/
+.gambar-gallery {
+    margin-bottom: 15rem;
+}
+.gambar-gallery .row .col-sm-4{
+    width: 30%;
+}
+
+.gambar-gallery .row {
+    display: flex;
+}
+
+.gallery-tengah {
+    margin: 3em;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body {
+    background-image: url("image/gallery/bg.png");
+}
+
+.bebas {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*footer*/
+.fa {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.fa-instagram {
+    background: 0;
+    color: #777777;
+}
+
+.fa-facebook {
+    background: 0;
+    color: #777777;
+    border-radius: 50%;
+}
+
+.fa-youtube {
+    background: 0;
+    color: #777777;
+}
+
+.fa-twitter {
+    background: 0;
+    color: #777777;
+}
+
+.footer .row {
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto; 
+    justify-content: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color:#606569;
+    font-size: 0.8em;
+}
+
+.footer a:hover {
+    color:#000;
+}
+
+.form-footer {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #222;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.btn-footer {
+    background-color: #777;
+    border: none;
+    
+}
+
+.bg-gray {
+    background-color: #ccd3da80;
+}
+
+.copyright {
+    font-size: 0.8em;
+    color:#52565a;
+    padding: 0.6em;
+}
